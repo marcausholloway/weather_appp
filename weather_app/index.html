@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Weather App</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div id="sky">
+<div class="sun" id="sun"></div>
+<div class="cloud cloud-1" id="cloud1"></div>
+<div class="cloud cloud-2" id="cloud2"></div>
+<div class="fog" id="fog"></div>
+<div id="rain"></div>
+<div id="snow"></div>
+<div id="thunder"></div>
+<div id="rainbow"></div>
+</div>
+<div class="container">
+<header>
+<h1>Weather App</h1>
+<p class="subtitle">Animated, responsive & Vercel-ready</p>
+</header>
+<div class="search-box">
+<input type="text" id="cityInput" placeholder="Enter city name... e.g. Dhaka" />
+<button id="searchBtn">Search</button>
+<button id="geoBtn">📍</button>
+</div>
+<main id="result" class="card">
+<div class="placeholder">Search a city or use your location — animations will match the weather.</div>
+</main>
+<footer><div class="credits">Data: WeatherAPI • UI: Animated</div></footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
